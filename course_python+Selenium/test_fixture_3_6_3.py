@@ -24,7 +24,7 @@ def browser():
 
 
 def test_lesson(browser, sites):
-    c = ''
+    c = '1'
     browser.get(sites)
     browser.implicitly_wait(10)
     inp = browser.find_element(By.XPATH, '//textarea')
